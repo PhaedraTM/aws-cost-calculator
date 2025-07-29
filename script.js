@@ -2,17 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const instanceType = document.getElementById("instanceType");
   const hours = document.getElementById("hours");
   const storage = document.getElementById("storage");
-
-  const container = document.querySelector(".container");
-
-  const result = document.createElement("div");
-  result.id = "result";
-  container.appendChild(result);
-
-  const button = document.createElement("button");
-  button.textContent = "Calculate Monthly Cost";
-  button.style.marginTop = "10px";
-  container.appendChild(button);
+  const result = document.getElementById("result");
+  const button = document.getElementById("calculateBtn");
 
   button.addEventListener("click", function () {
     const hourlyRate = parseFloat(instanceType.value);
