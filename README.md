@@ -6,47 +6,45 @@ A simple web application that estimates the monthly cost of running an AWS EC2 i
 - Usage hours per month
 - Storage amount in GB
 
-Built with **HTML**, **CSS**, and **JavaScript** to demonstrate basic cloud cost modeling logic and UI design.
+Built with HTML, CSS, and JavaScript to demonstrate basic cloud cost modeling logic and UI design.
 
 ---
 
-##  Features
-- Dropdown to select AWS EC2 instance type with hourly rates
-- Input for hours of usage and storage required
-- Button to calculate total estimated monthly cost
-- Clear result display with simple, responsive UI
+## Features
+
+- Select AWS EC2 instance type from a dropdown
+- Input usage hours and storage (in GB)
+- Calculate total monthly cost
+- Clean, responsive user interface
 
 ---
 
-##  How to Use It
-1. Select an instance type (like t2.micro)
-2. Enter estimated usage hours for the month
-3. Enter the amount of storage needed (in GB)
-4. Click **"Calculate Monthly Cost"**
-5. Get your estimated AWS bill!
+## How to Use
+
+1. Choose an EC2 instance type
+2. Enter estimated hours used per month
+3. Enter storage needed (in GB)
+4. Click **Calculate Monthly Cost**
+5. View estimated AWS bill below
 
 ---
 
-##  Tech Stack
+## Tech Stack
+
 - HTML
 - CSS
-- JavaScript (Vanilla)
+- JavaScript
 - GitHub Pages (for deployment)
 
 ---
 
-##  Screenshot
-![Screenshot](screenshot.png)
+## Try It Live
+
+Coming soon via GitHub Pages.
 
 ---
 
-##  Live Site
-[Click here to try it live](https://PhaedraTM.github.io/aws-cost-calculator)
+## Author
 
-
-
----
-
-## 👩‍💻 Author
-Built by [Phaedra Myseros](https://www.linkedin.com/in/phaedra-myseros) — aspiring cloud & product professional.
-
+Phaedra Myseros – Management Information Systems student  
+[LinkedIn](https://www.linkedin.com/in/phaedra-myseros)
