@@ -3,15 +3,16 @@ document.addEventListener("DOMContentLoaded", function () {
   const hours = document.getElementById("hours");
   const storage = document.getElementById("storage");
 
+  const container = document.querySelector(".container");
+
   const result = document.createElement("div");
   result.id = "result";
-  document.querySelector(".container").appendChild(result);
-
-  const storageCostPerGB = 0.10; // $0.10 per GB
+  container.appendChild(result);
 
   const button = document.createElement("button");
   button.textContent = "Calculate Monthly Cost";
-  document.querySelector(".container").appendChild(button);
+  button.style.marginTop = "10px";
+  container.appendChild(button);
 
   button.addEventListener("click", function () {
     const hourlyRate = parseFloat(instanceType.value);
@@ -25,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     const instanceCost = hourlyRate * usedHours;
-    const storageCost = storageCostPerGB * usedStorage;
+    const storageCost = 0.10 * usedStorage;
     const totalCost = (instanceCost + storageCost).toFixed(2);
 
     result.textContent = `Estimated Monthly Cost: $${totalCost}`;
