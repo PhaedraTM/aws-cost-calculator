@@ -2,11 +2,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const instanceType = document.getElementById("instanceType");
   const hours = document.getElementById("hours");
   const storage = document.getElementById("storage");
+
   const result = document.createElement("div");
   result.id = "result";
   document.querySelector(".container").appendChild(result);
 
-  const storageCostPerGB = 0.10; // Example: $0.10 per GB
+  const storageCostPerGB = 0.10; // $0.10 per GB
 
   const button = document.createElement("button");
   button.textContent = "Calculate Monthly Cost";
@@ -18,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const usedStorage = parseFloat(storage.value);
 
     if (isNaN(hourlyRate) || isNaN(usedHours) || isNaN(usedStorage)) {
-      result.textContent = "Please enter valid numbers for all fields.";
+      result.textContent = "Please enter valid numbers in all fields.";
       result.style.color = "red";
       return;
     }
