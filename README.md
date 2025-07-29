@@ -40,8 +40,7 @@ Built with HTML, CSS, and JavaScript to demonstrate basic cloud cost modeling lo
 
 ## Try It Live
 
-Coming soon via GitHub Pages.
-
+Link: https://phaedratm.github.io/aws-cost-calculator/
 ---
 
 ## Author
